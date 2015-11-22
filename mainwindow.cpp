@@ -94,7 +94,7 @@ void MainWindow::f()
 
     for(int i = 1; i < dot_number; i++)
     {
-        x2[i] = x [i];
+        x2[i] = x[i];
         y2[i] = y[i] + triangular(-dy, dy, 1/dy)-0.8;
     }
 
@@ -111,7 +111,7 @@ void MainWindow::f()
 
     for(int i = 1; i < dot_number; i++)
     {
-        x3[i] = x [i];
+        x3[i] = x[i];
         y3[i] = y[i] + triangular(-dy, dy, 1/dy)-0.8;
     }
 
